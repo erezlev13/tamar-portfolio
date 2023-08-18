@@ -8,33 +8,16 @@ export const Project = styled.div`
 	flex-direction: row;
 	align-content: center;
 	justify-content: center;
-	align-items: center;
-	margin-bottom: 200px;
-	width: auto;
-`;
-
-export const Specs = styled.span`
-	flex: 0;
-	margin-right: 40px;
+	margin-bottom: 30px;
+	min-height: 100vh;
+	position: relative;
 `;
 
 export const ImageWrapper = styled.div`
-	margin-top: 30px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-
-	${(props) =>
-		props.slide
-			? {
-					opacity: '1',
-					transitionDuration: '1s',
-					transform: 'scale(1.01)',
-			  }
-			: {
-					opacity: 0,
-					transitionDuration: '1s ease',
-			  }};
+	place-items: center;
 `;
 
 export const Images = styled.div`
@@ -46,9 +29,10 @@ export const Images = styled.div`
 `;
 
 export const Image = styled.img`
-	width: 100%;
-	height: calc(100vh - 50px);
-	display: flex;
+	width: calc(100vw - 200px);
+	height: calc(100vh - 100px);
+	padding: 10px;
+	object-fit: contain;
 	@media (min-width: 780px) and (max-width: 920px) {
 		height: calc(100vh - 200px);
 	}
@@ -58,19 +42,28 @@ export const Image = styled.img`
 	@media (min-width: ${phoneMinWidth}) and (max-width: ${phoneMaxWidth}) {
 		height: calc(100vh - 400px);
 	}
-	transition: 1s ease;
-	padding: 30px;
-	max-width: 800px;
-	max-height: 500px;
 `;
 
-export const LeftArrow = styled.button`
+export const Arrow = styled.button`
 	background: transparent;
 	border: 0;
-	transform: rotate(180deg);
+	cursor: pointer;
 `;
 
-export const RightArrow = styled.button`
+export const Specs = styled.span`
 	background: transparent;
+	position: absolute;
 	border: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+	height: 60px;
+	cursor: pointer;
+	z-index: 1;
+	left: 60px;
+	@media screen and (max-width: 768px) {
+		justify-content: center;
+		left: 0px;
+    }
 `;

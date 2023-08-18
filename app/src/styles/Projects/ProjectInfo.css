@@ -1,0 +1,38 @@
+.side-panel {
+    position: absolute;
+    height: calc(100vh - 100px);
+    left: 0;
+    width: calc(33.3% - 10px);
+    background-color: rgba(240, 240, 240, 0.9);
+    padding: 50px;
+    box-sizing: border-box;
+    z-index: 1;
+    @media screen and (max-width: 768px) {
+      top: 30px;
+      width: 100vw;
+    }
+  }
+  
+  .project-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+  
+  .property-info {
+    margin-top: 60px;
+  }
+  
+  .info-item {
+    margin-bottom: 90px;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .value {
+    font-size: 14px;
+  }
+  

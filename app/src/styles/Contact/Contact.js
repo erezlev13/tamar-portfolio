@@ -43,6 +43,7 @@ export const Name = styled.input`
 	height: 20px;
 	width: 55%;
 	padding: 5px;
+	font-family: 'Lato';
 `;
 
 export const EmailInput = styled.input`
@@ -54,6 +55,7 @@ export const EmailInput = styled.input`
 	height: 20px;
 	width: 55%;
 	padding: 5px;
+	font-family: 'Lato';
 `;
 
 export const Subject = styled.input`
@@ -65,6 +67,7 @@ export const Subject = styled.input`
 	height: 20px;
 	width: 55%;
 	padding: 5px;
+	font-family: 'Lato';
 `;
 
 export const Body = styled.textarea`
@@ -93,6 +96,7 @@ export const Send = styled.button`
 	width: 100px;
 	padding: 5px;
 	cursor: pointer;
+	text-align: center;
 `;
 
 export const AskMeBox = styled.div`

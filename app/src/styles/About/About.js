@@ -8,6 +8,7 @@ export const AboutContainer = styled.div`
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: flex-start;
 	@media (min-width: ${phoneMinWidth}) and (max-width: ${phoneMaxWidth}) {
 		flex-direction: column;
 	}
@@ -46,11 +47,10 @@ export const ImageBox = styled.div`
 
 export const Image = styled.img`
 	width: 100%;
-	height: auto;
-	object-fit: cover;
-	max-width: calc(1024px - 30%);
-	max-height: calc(840px - 30%);
+	object-fit: contain;
+	max-height: calc(100vh - 10px);
 	@media (min-width: ${phoneMinWidth}) and (max-width: ${phoneMaxWidth}) {
+		width: 100%;
 		height: 100%;
 		object-fit: contain;
 	}

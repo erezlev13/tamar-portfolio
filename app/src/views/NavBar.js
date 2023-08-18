@@ -10,7 +10,6 @@ import {
 	LogoLink,
 	LogoImage,
 } from '../styles/NavBar/NavElement';
-import tamarLogoIcon from '../assets/logo/Tamar Lev Studio LOGO.png';
 import { ReactComponent as TamarLogo } from '../assets/logo/Tamar_Lev_Studio.svg';
 
 const NavBar = () => {

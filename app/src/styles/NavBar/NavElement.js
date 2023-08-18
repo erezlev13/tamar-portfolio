@@ -22,6 +22,7 @@ export const PrimaryNav = styled.nav`
 		right: 0px;
 		bottom: 0px;
 		left: 0px;
+		position: sticky;
 	}
 `;
 

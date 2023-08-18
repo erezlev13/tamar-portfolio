@@ -20,6 +20,19 @@ export const GridWrapper = styled.div`
 	justify-content: center;
 	max-width: fit-content;
 	margin: 0 10px;
+	margin-top: 30px;
+`;
+
+export const Text = styled.span`
+	z-index: ${(props) => (props.showText ? '20' : '-20')};
+	position:  absolute;
+	font-size: 13px;
+	color: white;
+	pointer-events: none;
+	font-weight: lighter;
+	color: #f4f4f4;
+	display: ${(props) => (props.showText ? 'inline-block' : 'none')};
+	text-align: center;
 `;
 
 export const Image = styled.img`
@@ -27,34 +40,18 @@ export const Image = styled.img`
 	height: 350px;
 	flex: 1;
 	cursor: inherit;
+	border-bottom: 1px solid transparent;
+	object-fit: cover;
 	&:hover {
 		filter: contrast(70%) brightness(80%);
-
-		text-decoration-color: rgba(255, 255, 255, 1);
+		transform-origin: bottom left;
+		transition: 0.25s ease-out;
+		border-color: 'white';
 	}
-	@media (min-width: ${phoneMinWidth}) and (max-width: 760px) {
-		width: 250px;
-		height: 150px;
+	@media (max-width: 760px) {
+		width: 400px;
+		height: 250px;
 	}
-	@media (min-width: ${phoneMinWidth}) and (max-width: ${phoneMaxWidth}) {
-		width: 250px;
-		height: 150px;
-	}
-`;
-
-export const Text = styled.div`
-	z-index: ${(props) => (props.showText ? '20' : '-20')};
-	position: absolute;
-	font-size: 13px;
-	color: white;
-	cursor: inherit;
-	pointer-events: none;
-	font-weight: lighter;
-	color: #f4f4f4;
-	display: ${(props) => (props.showText ? 'block' : 'none')};
-	text-align: center;
-	text-decoration: underline 0.01em transparent;
-	transition: text-decoration-color 300ms;
 `;
 
 export const GridItem = styled.span`
@@ -65,7 +62,4 @@ export const GridItem = styled.span`
 	height: fit-content;
 	margin: 10px;
 	cursor: pointer;
-	@media (min-width: ${phoneMinWidth}) and (max-width: ${phoneMaxWidth}) {
-		max-width: 200px;
-	}
 `;

@@ -5,7 +5,6 @@ import { images } from '../assets/images/projects/projectImages';
 import { useNavigate } from 'react-router-dom';
 
 const ProjectsPage = () => {
-	console.log(`all images ${JSON.stringify(images)}`);
 	const navigate = useNavigate();
 
 	const handleProjectClicked = (image) => {
