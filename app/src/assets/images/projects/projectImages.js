@@ -1,73 +1,134 @@
-import danaHarel from './Dana Harel/DANA_HAREL004.jpg';
-import klil from './Klil/Photos/Klil_09.jpeg';
-import pines from './Pines/PHOTO-2020-03-02-17-38-20_2.jpg';
-import shabazi from './Shabazi/Shabazi_C04_web.jpg';
-import nechoshtan from './Nechoshtan/PHOTO-2021-10-12-11-28-15.jpg';
-import shefayim from './Shefayim Hotel/Shefayim_Room390_c01.jpg';
-import olympicResort from './Olympic resort/OlimpicSPA_Cam3_HR.jpg';
-import hcc from './HCC/Lobby_C3_web.jpg';
-import rogovinAcro from './Rogovin Acro/looby_c3.RGB_color.0000.jpg';
+import danaHarel from "./Dana Harel/DANA_HAREL004.jpg";
+import klil from "./klil/Klil-01.jpg";
+import pines from "./Pines/pines_03.jpg";
+import shabazi from "./shabazi/Shabazi_01.jpg";
+import nechoshtan from "./n-penthouse/N-Penthouse_01.jpg";
+import shefayim from "./shefayim/shefayim_01.jpg";
+import olympicResort from "./olympic/olympic_01.jpg";
+import hcc from "./HCC/HCC_01.jpg";
+import rogovinAcro from "./rogovin-acro/rogovin-acro_01.jpg";
+import bareli from './nili/bareli_01.jpeg';
 
-import { NechoshtanImages } from './nechoshtanImages';
-import { KlilImages } from './klilProjects';
+import { NechoshtanImages } from "./nechoshtanImages";
+import { KlilImages } from "./klilProjects";
+import { DaneHarelImages } from "./danaHarelImages";
+import { ShabaziImages } from "./shabaziImages";
+import { ShefayimImages } from "./shefayimImages";
+import { RogovinArcoImages } from "./rogovinArcoImages";
+import { HCCImages } from "./hccImages";
+import { PinesImages } from "./pinesImages";
+import { OlympicImages } from "./olympicImages";
+import { NiliImages } from "./niliProjects";
 
 export const images = [
-	{
-		source: danaHarel,
-		alt: 'Dana Harel',
-		name: 'Dana Harel',
-		summary: 'Dana Harel',
-	},
-	{
-		source: klil,
-		alt: 'Klil',
-		name: 'Klil',
-		summary: 'Klil',
-		images: KlilImages,
-	},
-	{
-		source: pines,
-		alt: 'Pines',
-		name: 'Pines',
-		summary: 'Pines',
-	},
-	{
-		source: shabazi,
-		alt: 'Shabazi',
-		name: 'Shabazi',
-		summary: 'Shabazi',
-	},
-	{
-		source: nechoshtan,
-		alt: 'N Penthouse',
-		name: 'N Penthouse',
-		summary: 'N Penthouse',
-		area: '350 Sqm',
-		location: 'Tel Aviv',
-		images: NechoshtanImages,
-	},
-	{
-		source: shefayim,
-		alt: 'Shefayim',
-		name: 'Shefayim',
-		summary: 'Shefayim',
-	},
-	{
-		source: olympicResort,
-		alt: 'Olympic Resort',
-		name: 'Olympic Resort',
-		summary: 'Olympic Resort',
-	},
-	{
-		source: hcc,
-		alt: 'HCC',
-		name: 'HCC',
-		summary: 'HCC',
-	},
-	{
-		source: rogovinAcro,
-		alt: 'Rogovin Arco',
-		name: 'Rogovin Arco',
-		summary: 'Rogovin Arco',
-	},
+  {
+    source: danaHarel,
+    alt: "Dana Harel",
+    name: "Dana Harel",
+    summary: "Dana Harel",
+    projectName: "Dana Harel Atelier",
+    area: "180 sqm",
+    location: "Tel Aviv",
+    architect: "Baranowitz & Goldberg",
+    images: DaneHarelImages,
+  },
+  {
+    source: klil,
+    alt: "Klil",
+    name: "Klil",
+    summary: "Klil",
+    projectName: "Klil Showroom",
+    area: "200 sqm",
+    location: "Redeisgn, Kiryat Ata",
+    architect: "Baranowitz & Goldberg",
+    images: KlilImages,
+  },
+  {
+    source: pines,
+    alt: "P Apartement",
+    name: "P Apartement",
+    summary: "P Apartement",
+    projectName: "P Apartement",
+    area: "180 sqm",
+    location: "Tel Aviv",
+    architect: "Baranowitz & Goldberg",
+    images: PinesImages,
+  },
+  {
+    source: bareli,
+    alt: "Nili",
+    name: "Nili",
+    summary: "Nili",
+    projectName: "Nili's Apartement",
+    area: "120 Sqm",
+    location: "Tel Aviv",
+    architect: "Tamar Lev",
+    images: NiliImages,
+  },
+  {
+    source: shabazi,
+    alt: "Shabazi",
+    name: "Shabazi",
+    summary: "Shabazi",
+    projectName: "Private Mansion",
+    area: "500 sqm",
+    location: "Tel Aviv",
+    architect: "Baranowitz & Goldberg",
+    images: ShabaziImages,
+  },
+  {
+    source: shefayim,
+    alt: "Shefayim",
+    name: "Shefayim",
+    summary: "Shefayim",
+    projectName: "Shefayim Hotel Rooms",
+    area: "25 Sqm per room",
+    location: "Shefayim",
+    architect: "Baranowitz & Goldberg",
+    images: ShefayimImages,
+  },
+  {
+    source: rogovinAcro,
+    alt: "Rogovin Acro",
+    name: "Rogovin Acro",
+    summary: "Rogovin Acro",
+    projectName: "Rogovin Acro Lobby",
+    area: "500 Sqm",
+    location: "Ramat Gan",
+    architect: "Baranowitz & Goldberg",
+    images: RogovinArcoImages,
+  },
+  {
+    source: nechoshtan,
+    alt: "N Penthouse",
+    name: "N Penthouse",
+    summary: "N Penthouse",
+    projectName: "N Penthouse",
+    area: "350 Sqm",
+    location: "Tel Aviv",
+    architect: "Baranowitz & Goldberg",
+    images: NechoshtanImages,
+  },
+  {
+    source: olympicResort,
+    alt: "Olympic Resort",
+    name: "Olympic Resort",
+    summary: "Olympic Resort",
+    projectName: "OR Building Lobby & Spa",
+    area: "190 Sqm",
+    location: "Cyprus",
+    architect: "Baranowitz & Goldberg",
+    images: OlympicImages,
+  },
+  {
+    source: hcc,
+    alt: "HCC",
+    name: "HCC",
+    summary: "HCC",
+    projectName: "High Consciousness Centre",
+    area: "1000 Sqm",
+    location: "Netanya",
+    architect: "Baranowitz & Goldberg",
+    images: HCCImages,
+  },
 ];

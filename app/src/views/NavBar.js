@@ -10,7 +10,7 @@ import {
 	LogoLink,
 	LogoImage,
 } from '../styles/NavBar/NavElement';
-import { ReactComponent as TamarLogo } from '../assets/logo/Tamar_Lev_Studio.svg';
+import { ReactComponent as TamarLogo } from '../assets/logo/Tamar_Lev_Studio-logo.svg';
 
 const NavBar = () => {
 	const [showMenu, setshowMenu] = useState(false);

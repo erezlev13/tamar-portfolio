@@ -15,7 +15,7 @@ export const PrimaryNav = styled.nav`
 	@media screen and (max-width: 768px) {
 		flex-direction: column;
 		height: ${(props) =>
-			props.isHamburgerNav ? `calc(100vh - 10px)` : `100%`};
+			props.isHamburgerNav ? `calc(100vh)` : `100%`};
 		margin-right: 0;
 		position: ${(props) => (props.isHamburgerNav ? `absolute` : `100%`)};
 		top: 0px;
@@ -31,7 +31,6 @@ export const Logo = styled.div`
 	align-items: center;
 	flex-direction: column;
 	flex-wrap: wrap;
-	width: 100%;
 	margin-top: 40px;
 	padding-top: 20px;
 	@media screen and (max-width: 768px) {
@@ -43,21 +42,31 @@ export const LogoImage = styled.div`
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	flex-wrap: wrap;
-	width: 50px;
+	width: 100px;
 	padding-top: 10px;
 	margin-bottom: 5px;
 	@media screen and (max-width: 768px) {
-		margin: 0;
+		margin-bottom: 0;
+		width: 130px;
 	}
 `;
 
 export const Title = styled.h1`
 	color: #000;
 	display: flex;
-	font-size: 12px;
+	flex-direction: column;
+	justify-content: flex-start;
+	font-size: 32px;
 	font-weight: lighter;
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.7rem;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	@media screen and (max-width: 768px) {
+		margin: 20px;
+		font-size: 20px;
+		margin-bottom: 8px;
+		margin-top: -10px;
+	}
 `;
 
 export const SubTitle = styled.h3`
@@ -65,12 +74,14 @@ export const SubTitle = styled.h3`
 	display: flex;
 	align-items: center;
 	flex: 2;
-	font-size: 9px;
-	margin-top: 5px;
+	font-size: 14px;
+	margin-top: 0px;
 	margin-bottom: 15px;
 	font-weight: lighter;
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.5rem;
 	@media screen and (max-width: 768px) {
+		margin: 10px;
+		margin-top: 3px;
 		font-size: 10px;
 	}
 `;
@@ -81,17 +92,18 @@ export const LogoLink = styled(Link)`
 `;
 
 export const MenuLink = styled(Link)`
-	color: darkgray;
+	color: #686666;
 	display: flex;
 	cursor: pointer;
 	align-items: center;
 	text-decoration: none;
 	padding: 0 2rem;
 	height: 100%;
-	font-size: 10px;
+	font-size: 12px;
 	letter-spacing: 0.1em;
 	&.active {
 		color: #000000;
+		font-weight: bolder;
 	}
 	@media screen and (max-width: 768px) {
 		margin-top: 12px;
@@ -110,7 +122,7 @@ export const Hamburger = styled(FaBars)`
 	@media screen and (max-width: 768px) {
 		display: block;
 		font-size: 1.2rem;
-		top: 30px;
+		top: 15px;
 		right: 15px;
 		position: absolute;
 		cursor: pointer;
@@ -124,6 +136,7 @@ export const Menu = styled.div`
 	align-items: center;
 	flex-direction: row;
 	justify-content: space-evenly;
+	margin-top: 15px;
 	@media screen and (min-width: 768px) {
 		display: flex;
 	}
@@ -131,7 +144,7 @@ export const Menu = styled.div`
 		opacity: ${(props) => (props.open ? '100%' : 0)};
 		flex-direction: column;
 		justify-content: center;
-		height: ${(props) => (props.open ? '70%' : 0)};
+		height: ${(props) => (props.open ? '50%' : 0)};
 		margin: 0;
 		transition: transform 1.3s ease-out;
 		transform: ${(props) =>

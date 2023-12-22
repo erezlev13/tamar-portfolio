@@ -26,8 +26,7 @@ export const GridWrapper = styled.div`
 export const Text = styled.span`
 	z-index: ${(props) => (props.showText ? '20' : '-20')};
 	position:  absolute;
-	font-size: 13px;
-	color: white;
+	font-size: 18px;
 	pointer-events: none;
 	font-weight: lighter;
 	color: #f4f4f4;
@@ -43,7 +42,7 @@ export const Image = styled.img`
 	border-bottom: 1px solid transparent;
 	object-fit: cover;
 	&:hover {
-		filter: contrast(70%) brightness(80%);
+		filter: contrast(70%) brightness(60%);
 		transform-origin: bottom left;
 		transition: 0.25s ease-out;
 		border-color: 'white';
@@ -63,3 +62,10 @@ export const GridItem = styled.span`
 	margin: 10px;
 	cursor: pointer;
 `;
+
+export const Line = styled.div`
+	border-bottom: .5px solid #f4f4f4;
+	height: 2px;
+	width: ${(props) => (props.showText ? '100%' : '0')};
+	z-index: ${(props) => (props.showText ? '20' : '-20')};
+`

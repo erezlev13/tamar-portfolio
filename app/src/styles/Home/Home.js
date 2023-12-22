@@ -21,9 +21,8 @@ export const Image = styled.img`
 	padding: 10px;
 	object-fit: contain;
 	@media screen and (max-width: 768px) {
-		width: 100%;
-		height: auto;
-		max-width: 100%;
-		object-fit: cover;
+		width: stretch;
+		height: 100%;
+		object-fit: contain;
 	}
 `;

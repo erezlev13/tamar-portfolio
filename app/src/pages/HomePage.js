@@ -1,13 +1,13 @@
 import React from 'react';
 import { Image, ImageWrapper } from '../styles/Home/Home';
-import nechoshtan from '../assets/images/projects/Nechoshtan/PHOTO-2021-10-12-11-28-15.jpg';
+import danaHarel from '/Users/erezl/Desktop/tamar-portfolio/app/src/assets/images/projects/Dana Harel/DANA_HAREL011.jpg';
 
 const HomePage = () => {
 	return (
 		<>
 			<ImageWrapper>
 				<Image
-					src={nechoshtan}
+					src={danaHarel}
 					alt={'home page'}
 				/>
 			</ImageWrapper>

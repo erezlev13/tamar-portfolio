@@ -9,13 +9,14 @@ const ProjectsPage = () => {
 
 	const handleProjectClicked = (image) => {
 		navigate(`/project`, {
-			state: {
-				images: image.images,
-				name: image.name,
-				area: image.area,
-				location: image.location,
-			},
-		});
+      state: {
+        images: image.images,
+        name: image.projectName,
+        area: image.area,
+        location: image.location,
+        architect: image.architect,
+      },
+    });
 	};
 
 	return (

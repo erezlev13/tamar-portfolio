@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { CSSTransition } from 'react-transition-group';
+import '../styles/transitions/transitions.css';
 
 import {
 	GridView,
@@ -6,6 +8,7 @@ import {
 	Image,
 	Text,
 	GridItem,
+	Line
 } from '../styles/Grid/Grid';
 
 const ImagesGrid = ({ images, handleGridItemClicked }) => {
@@ -47,7 +50,11 @@ const ImagesGrid = ({ images, handleGridItemClicked }) => {
 					>
 						<Text showText={hoverImageList[index]}>
 							{image.summary}
+							<CSSTransition in={hoverImageList[index]} classNames="fade" timeout={1000} unmountOnExit>
+								<Line showText={hoverImageList[index]} />
+							</CSSTransition>
 						</Text>
+						
 						<Image
 							src={image.source}
 							alt={image.alt}

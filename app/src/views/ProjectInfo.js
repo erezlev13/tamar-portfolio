@@ -8,7 +8,7 @@ const ProjectInfo = ({ projectName, sqm, location, architect, show }) => {
   return (
     <CSSTransition in={show} classNames="slide-fade" timeout={1000} unmountOnExit>
       <div className="side-panel">
-          <div className="project-name">{projectName}</div>
+          <div className="project-name" style={{ fontSize: "17px", color: "#686868" }}>{projectName}</div>
           <div className="property-info">
             <div className="info-item">
               <div className="label">Sqm</div>

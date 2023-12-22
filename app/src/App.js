@@ -9,36 +9,26 @@ import ContactPage from './pages/ContactPage';
 
 const App = () => {
 	return (
-		<>
-			<NavBar />
-			<Routes>
-				<Route
-					path='/'
-					element={<HomePage />}
-				/>
-				<Route
-					path='/projects'
-					element={<ProjectsPage />}
-				/>
-				<Route
-					path='/project'
-					element={<ProjectPage />}
-				/>
-				<Route
-					path='/about'
-					element={<AboutPage />}
-				/>
-				<Route
-					path='/publications'
-					element={<PublicationsPage />}
-				/>
-				<Route
-					path='/contact'
-					element={<ContactPage />}
-				/>
-			</Routes>
-		</>
-	);
+    <>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+        }}
+      >
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/project" element={<ProjectPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/publications" element={<PublicationsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+      </div>
+    </>
+  );
 };
 
 export default App;
