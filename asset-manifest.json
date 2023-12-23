@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.437ce7d1.css",
+    "main.css": "/static/css/main.fcd2c5fe.css",
     "main.js": "/static/js/main.5bdad159.js",
     "static/js/787.c1112931.chunk.js": "/static/js/787.c1112931.chunk.js",
     "static/media/olympic_01.jpg": "/static/media/olympic_01.e39defb4512e5034ab42.jpg",
@@ -90,12 +90,12 @@
     "static/media/Tamar_Lev_Studio-logo.svg": "/static/media/Tamar_Lev_Studio-logo.30688d279be8511c57832a86d20ba3bf.svg",
     "static/media/arrow_left.svg": "/static/media/arrow_left.5cd976913bd6324f29dce7c9c48a316a.svg",
     "static/media/plus.svg": "/static/media/plus.c58a26b03bbd2798790a420a0c30e9f2.svg",
-    "main.437ce7d1.css.map": "/static/css/main.437ce7d1.css.map",
+    "main.fcd2c5fe.css.map": "/static/css/main.fcd2c5fe.css.map",
     "main.5bdad159.js.map": "/static/js/main.5bdad159.js.map",
     "787.c1112931.chunk.js.map": "/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.437ce7d1.css",
+    "static/css/main.fcd2c5fe.css",
     "static/js/main.5bdad159.js"
   ]
 }
