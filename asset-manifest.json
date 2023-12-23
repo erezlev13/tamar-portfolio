@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fcd2c5fe.css",
-    "main.js": "/static/js/main.5bdad159.js",
+    "main.js": "/static/js/main.8c215ad7.js",
     "static/js/787.c1112931.chunk.js": "/static/js/787.c1112931.chunk.js",
     "static/media/olympic_01.jpg": "/static/media/olympic_01.e39defb4512e5034ab42.jpg",
     "static/media/olympic_06.jpg": "/static/media/olympic_06.2b2d2a927be63857c159.jpg",
@@ -9,10 +9,25 @@
     "static/media/rogovin-acro_04.jpg": "/static/media/rogovin-acro_04.3ee1ad4b897549cc0ec1.jpg",
     "static/media/rogovin-acro_03.jpg": "/static/media/rogovin-acro_03.5b99ff185fbe6077838b.jpg",
     "static/media/olympic_05.jpg": "/static/media/olympic_05.f01a3b26a84720727015.jpg",
+    "static/media/Bareli_07.jpg": "/static/media/Bareli_07.e2a9dc2fca2b27f1dfe5.jpg",
     "static/media/rogovin-acro_01.jpg": "/static/media/rogovin-acro_01.9d7a37c275200da13342.jpg",
     "static/media/rogovin-acro_02.jpg": "/static/media/rogovin-acro_02.1a68255d90d3b8e49451.jpg",
+    "static/media/Bareli_04.jpg": "/static/media/Bareli_04.c05742ab0f996e1740b9.jpg",
+    "static/media/Bareli_10.jpg": "/static/media/Bareli_10.1bc6aa26c3af4aeb6bc8.jpg",
+    "static/media/Bareli_08.jpg": "/static/media/Bareli_08.ff6fbdc44956c3c13cf3.jpg",
+    "static/media/Bareli_06.jpg": "/static/media/Bareli_06.9775e6d047c37c8cebfd.jpg",
+    "static/media/Bareli_09.jpg": "/static/media/Bareli_09.532df37030b82c9f9818.jpg",
+    "static/media/Bareli12.jpg": "/static/media/Bareli12.6401be9c962721415500.jpg",
+    "static/media/Bareli001.jpg": "/static/media/Bareli001.2cc6b7c95377a0307689.jpg",
+    "static/media/Bareli__02.jpg": "/static/media/Bareli__02.56ba471f00ca0bf12166.jpg",
+    "static/media/Bareli22.jpg": "/static/media/Bareli22.6a9effe42160f7fdc082.jpg",
+    "static/media/Bareli_01.jpg": "/static/media/Bareli_01.165fd0cc4c179ef926d7.jpg",
+    "static/media/Bareli_05.jpg": "/static/media/Bareli_05.8e34d289578fea8fb41a.jpg",
+    "static/media/Bareli_03.jpg": "/static/media/Bareli_03.f52c7b30ea3dba1a298d.jpg",
     "static/media/bareli_02.jpg": "/static/media/bareli_02.09e76171dc1e73c61f9e.jpg",
+    "static/media/Bareli13.jpg": "/static/media/Bareli13.7b4533969e6857d19395.jpg",
     "static/media/rogovin-acro_05.PNG": "/static/media/rogovin-acro_05.f71c55c46e89a5cdbfb6.PNG",
+    "static/media/Bareli_11.jpg": "/static/media/Bareli_11.8018c33f67cb19d4ee6e.jpg",
     "static/media/bareli_01.jpeg": "/static/media/bareli_01.52ef0e18b36d9cdb212e.jpeg",
     "static/media/Shabazi_07.jpg": "/static/media/Shabazi_07.3968ab581192a5facb50.jpg",
     "static/media/Shabazi_04.jpg": "/static/media/Shabazi_04.632f86eef6a786e9acbe.jpg",
@@ -33,6 +48,7 @@
     "static/media/Klil_02.jpg": "/static/media/Klil_02.004a5cc8c24a3c502b6f.jpg",
     "static/media/HCC_07.jpg": "/static/media/HCC_07.4163a903bae724325bed.jpg",
     "static/media/Klil_04.jpg": "/static/media/Klil_04.3c68326c238352af0fb9.jpg",
+    "static/media/Bareli_14.jpg": "/static/media/Bareli_14.13450464762c5f5c53b4.jpg",
     "static/media/HCC_01.jpg": "/static/media/HCC_01.b407a9b89225ca5e122b.jpg",
     "static/media/HCC_02.jpg": "/static/media/HCC_02.d4d008f4250a39361698.jpg",
     "static/media/Klil_05.jpg": "/static/media/Klil_05.488d517fa887a17741be.jpg",
@@ -91,11 +107,11 @@
     "static/media/arrow_left.svg": "/static/media/arrow_left.5cd976913bd6324f29dce7c9c48a316a.svg",
     "static/media/plus.svg": "/static/media/plus.c58a26b03bbd2798790a420a0c30e9f2.svg",
     "main.fcd2c5fe.css.map": "/static/css/main.fcd2c5fe.css.map",
-    "main.5bdad159.js.map": "/static/js/main.5bdad159.js.map",
+    "main.8c215ad7.js.map": "/static/js/main.8c215ad7.js.map",
     "787.c1112931.chunk.js.map": "/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcd2c5fe.css",
-    "static/js/main.5bdad159.js"
+    "static/js/main.8c215ad7.js"
   ]
 }
