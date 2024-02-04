@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import {
   TextBox,
@@ -10,6 +10,14 @@ import {
 import tamarProfile from "../assets/images/home/Tamar_Profile_Smile.jpeg";
 
 const AboutPage = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    scrollToTop();
+  });
+  
   return (
     <>
       <AboutContainer>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import {
   Address,
@@ -28,6 +28,14 @@ const ContactPage = () => {
     const mailtoLink = `mailto:${tamarEmail}?subject=${subject}&body=${body}`;
     window.location.href = mailtoLink;
   };
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    scrollToTop();
+  });
 
   return (
     <>

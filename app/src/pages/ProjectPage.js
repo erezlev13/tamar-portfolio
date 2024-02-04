@@ -32,7 +32,12 @@ const ProjectPage = () => {
     window.innerWidth <= MAX_MOBILE_WIDTH
   );
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
   useEffect(() => {
+    scrollToTop();
     const handleResize = () => {
       setIsMobileView(window.innerWidth <= MAX_MOBILE_WIDTH);
     };
