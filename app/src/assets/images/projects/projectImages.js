@@ -1,7 +1,7 @@
 import danaHarel from "./Dana Harel/DANA_HAREL004.jpg";
 import klil from "./klil/Klil-01.jpg";
 import pines from "./Pines/pines_03.jpg";
-import shabazi from "./shabazi/Shabazi_01.jpg";
+import shabazi from "./Shabazi/Shabazi_01.jpg";
 import nechoshtan from "./n-penthouse/N-Penthouse_01.jpg";
 import shefayim from "./shefayim/shefayim_01.jpg";
 import olympicResort from "./olympic/olympic_01.jpg";

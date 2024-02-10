@@ -26,3 +26,26 @@ export const Image = styled.img`
 		object-fit: contain;
 	}
 `;
+
+export const Socials = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 20px;
+`;
+
+export const Icon = styled.a`
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  svg {
+    width: 4em;
+    height: 4em;
+    &:hover {
+      filter: contrast(20);
+    }
+  }
+`;
