@@ -21,8 +21,7 @@ export const Image = styled.img`
 	padding: 10px;
 	object-fit: contain;
 	@media screen and (max-width: 768px) {
-		width: stretch;
-		height: 100%;
+		width: 100%;
 		object-fit: contain;
 	}
 `;
@@ -33,12 +32,13 @@ export const Socials = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   gap: 20px;
 `;
 
 export const Icon = styled.a`
-  background: transparent;
+  background: transparent;filenamesearch:?search=vulkan-1&url=file:///run/media/asowneryt/Stuff/Games/RedDeadRedemption2_Linux/wine/lib/wine/x86_64-windows&title=Query Results from 'vulkan-1'
   border: 0;
   cursor: pointer;
   svg {
