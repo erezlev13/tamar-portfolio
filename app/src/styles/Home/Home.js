@@ -32,8 +32,8 @@ export const Socials = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 8em;
+  margin-bottom: 8em;
   gap: 20px;
 `;
 
@@ -42,8 +42,8 @@ export const Icon = styled.a`
   border: 0;
   cursor: pointer;
   svg {
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     &:hover {
       filter: contrast(20);
     }
