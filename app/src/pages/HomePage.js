@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Image, ImageWrapper, Socials, Icon } from "../styles/Home/Home";
-import danaHarel from "../assets/images/projects/Dana Harel/DANA_HAREL011.jpg";
 import { ReactComponent as InstagramIcon } from "../assets/instagram.svg";
 import { ReactComponent as PinterestIcon } from "../assets/pinterest.svg";
+import { images } from "../assets/images/home/homeImages";
 
 const HomePage = () => {
   const scrollToTop = () => {
@@ -16,7 +16,7 @@ const HomePage = () => {
   return (
     <>
       <ImageWrapper>
-        <Image src={danaHarel} alt={"home page"} />
+        <Image src={images[0].source} alt={images[0].alt} />
       </ImageWrapper>
       <Socials>
         <Icon href="https://www.instagram.com/tamarlev.studio" target="_blank">

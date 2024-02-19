@@ -7,7 +7,7 @@ import shefayim from "./shefayim/shefayim_01.jpg";
 import olympicResort from "./olympic/olympic_01.jpg";
 import hcc from "./HCC/HCC_01.jpg";
 import rogovinAcro from "./rogovin-acro/rogovin-acro_01.jpg";
-import bareli from './nili/bareli_01.jpeg';
+import bareli from './nili/TAMAR_LEV_BARELI_APARTMENT-1.jpg';
 
 import { NechoshtanImages } from "./nechoshtanImages";
 import { KlilImages } from "./klilProjects";
@@ -56,10 +56,10 @@ export const images = [
   },
   {
     source: bareli,
-    alt: "Nili",
-    name: "Nili",
-    summary: "Nili",
-    projectName: "Nili's Apartement",
+    alt: "BR10 Apartment",
+    name: "BR10 Apartment",
+    summary: "BR10 Apartment",
+    projectName: "BR10 Apartment",
     area: "120 Sqm",
     location: "Tel Aviv",
     architect: "Tamar Lev",

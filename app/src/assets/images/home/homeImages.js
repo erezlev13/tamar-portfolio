@@ -1,13 +1,8 @@
-import tamarProfileSmile from './Tamar_Profile_Smile.jpeg';
-import tamarProfile from './Tamar_Profile.jpeg';
+import Homepage1 from './TAMAR_LEV_BARELI_APARTMENT- Homepage1.jpg';
 
 export const images = [
 	{
-		source: tamarProfile,
-		alt: 'Tamar Lev',
-	},
-	{
-		source: tamarProfileSmile,
-		alt: 'Tamar Lev Smile',
+		source: Homepage1,
+		alt: 'BR10 Apartment',
 	},
 ];
