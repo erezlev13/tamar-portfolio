@@ -8,6 +8,7 @@ import olympicResort from "./olympic/olympic_01.jpg";
 import hcc from "./HCC/HCC_01.jpg";
 import rogovinAcro from "./rogovin-acro/rogovin-acro_01.jpg";
 import bareli from './nili/TAMAR_LEV_BARELI_APARTMENT-1.jpg';
+import yz06 from './YZ06/YZ6-coming-soon.jpg'
 
 import { NechoshtanImages } from "./nechoshtanImages";
 import { KlilImages } from "./klilProjects";
@@ -19,6 +20,7 @@ import { HCCImages } from "./hccImages";
 import { PinesImages } from "./pinesImages";
 import { OlympicImages } from "./olympicImages";
 import { NiliImages } from "./niliProjects";
+import { YZ06images } from "./YZ06images";
 
 export const images = [
   {
@@ -130,5 +132,16 @@ export const images = [
     location: "Netanya",
     architect: "Baranowitz & Goldberg",
     images: HCCImages,
+  },
+  {
+    source: yz06,
+    alt: "YZ06",
+    name: "YZ06",
+    summary: "YZ06",
+    projectName: "Work in progress",
+    area: "130 Sqm",
+    location: "Tel Aviv",
+    architect: "Tamar Lev",
+    images: YZ06images,
   },
 ];
