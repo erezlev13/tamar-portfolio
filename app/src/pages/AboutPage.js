@@ -7,7 +7,7 @@ import {
   Text,
   AboutContainer,
 } from "../styles/About/About";
-import tamarProfile from "../assets/images/home/Tamar_Profile_Smile.jpeg";
+import tamarProfile from "../assets/images/about/Tamar_Profile_Smile.jpeg";
 
 const AboutPage = () => {
   const scrollToTop = () => {
@@ -22,7 +22,7 @@ const AboutPage = () => {
     <>
       <AboutContainer>
         <ImageBox>
-          <Image src={tamarProfile} />
+          <Image src={tamarProfile} alt="Tamar Lev Smile" />
         </ImageBox>
         <TextBox>
           <Text>

@@ -36,6 +36,7 @@ const ProjectPage = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
+  // Set mobile view on resize
   useEffect(() => {
     scrollToTop();
     const handleResize = () => {
