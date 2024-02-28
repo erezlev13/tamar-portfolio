@@ -23,6 +23,7 @@ import { NiliImages } from "./niliProjects";
 import { YZ06images } from "./YZ06images";
 
 export const images = [
+  /*
   {
     source: danaHarel,
     alt: "Dana Harel",
@@ -56,6 +57,7 @@ export const images = [
     architect: "Baranowitz & Goldberg",
     images: PinesImages,
   },
+  */
   {
     source: bareli,
     alt: "BR10 Apartment",
@@ -67,6 +69,7 @@ export const images = [
     architect: "Tamar Lev",
     images: NiliImages,
   },
+  /*
   {
     source: shabazi,
     alt: "Shabazi",
@@ -133,12 +136,13 @@ export const images = [
     architect: "Baranowitz & Goldberg",
     images: HCCImages,
   },
+  */
   {
     source: yz06,
     alt: "YZ06",
     name: "YZ06",
-    summary: "YZ06",
-    projectName: "Work in progress",
+    summary: "Work in progress",
+    projectName: "YZ06",
     area: "130 Sqm",
     location: "Tel Aviv",
     architect: "Tamar Lev",
