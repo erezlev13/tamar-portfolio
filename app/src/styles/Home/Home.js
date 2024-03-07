@@ -26,24 +26,25 @@ export const Image = styled.img`
 	}
 `;
 
+
 export const Socials = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 8em;
-  margin-bottom: 8em;
+  margin-top: 6em;
+  margin-bottom: 6em;
   gap: 20px;
 `;
 
 export const Icon = styled.a`
-  background: transparent;filenamesearch:?search=vulkan-1&url=file:///run/media/asowneryt/Stuff/Games/RedDeadRedemption2_Linux/wine/lib/wine/x86_64-windows&title=Query Results from 'vulkan-1'
+  background: transparent;
   border: 0;
   cursor: pointer;
   svg {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
     &:hover {
       filter: contrast(20);
     }

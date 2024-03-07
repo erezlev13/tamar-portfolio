@@ -49,7 +49,8 @@ export const Image = styled.img`
 	}
 	@media (max-width: 760px) {
 		width: 400px;
-		height: 250px;
+		height: 100%;
+		object-fit: contain;
 	}
 `;
 

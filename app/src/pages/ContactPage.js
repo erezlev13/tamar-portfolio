@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import {
   Address,
@@ -29,6 +29,8 @@ const ContactPage = () => {
     window.location.href = mailtoLink;
   };
 
+  /* ima remove this for now because tamar was complaining about the page jumping around and im blaming this code
+  remember to import useEffect if reintroducing this
   const scrollToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
@@ -36,6 +38,7 @@ const ContactPage = () => {
   useEffect(() => {
     scrollToTop();
   });
+  */
 
   return (
     <>
