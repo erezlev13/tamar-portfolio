@@ -1,3 +1,4 @@
+/*
 import danaHarel from "./Dana Harel/DANA_HAREL004.jpg";
 import klil from "./klil/Klil-01.jpg";
 import pines from "./Pines/pines_03.jpg";
@@ -7,9 +8,10 @@ import shefayim from "./shefayim/shefayim_01.jpg";
 import olympicResort from "./olympic/olympic_01.jpg";
 import hcc from "./HCC/HCC_01.jpg";
 import rogovinAcro from "./rogovin-acro/rogovin-acro_01.jpg";
+*/
 import bareli from './nili/TAMAR_LEV_BARELI_APARTMENT-1.jpg';
 import yz06 from './YZ06/YZ6-coming-soon.jpg'
-
+/*
 import { NechoshtanImages } from "./nechoshtanImages";
 import { KlilImages } from "./klilProjects";
 import { DaneHarelImages } from "./danaHarelImages";
@@ -19,6 +21,7 @@ import { RogovinArcoImages } from "./rogovinArcoImages";
 import { HCCImages } from "./hccImages";
 import { PinesImages } from "./pinesImages";
 import { OlympicImages } from "./olympicImages";
+*/
 import { NiliImages } from "./niliProjects";
 import { YZ06images } from "./YZ06images";
 
@@ -139,10 +142,10 @@ export const images = [
   */
   {
     source: yz06,
-    alt: "YZ06",
-    name: "YZ06",
-    summary: "Work in progress",
-    projectName: "YZ06",
+    alt: "YZ06 (Work in progress)",
+    name: "YZ06 (Work in progress)",
+    summary: "YZ06 (Work in progress)",
+    projectName: "YZ06 (Work in progress)",
     area: "130 Sqm",
     location: "Tel Aviv",
     architect: "Tamar Lev",
