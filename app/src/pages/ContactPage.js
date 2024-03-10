@@ -37,7 +37,7 @@ const ContactPage = () => {
           <Phone>TEL: +972 544804104</Phone>
         </ContactInfo>
         <AskMeBox
-          action="https://form.taxi/s/8av5ubq2"
+          action="https://form.taxi/s/k1jw3k3t"
           method="POST"
         >
           <AskMeHHeader>Ask me a question</AskMeHHeader>
