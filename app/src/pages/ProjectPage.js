@@ -3,7 +3,12 @@ import { ReactComponent as RightArrowIcon } from "../assets/arrow_right.svg";
 import { ReactComponent as LeftArrowIcon } from "../assets/arrow_left.svg";
 import { ReactComponent as Plus } from "../assets/plus.svg";
 import ProjectInfo from "../views/ProjectInfo";
-import ProjectMobile from "../views/ProjectMobile";
+import {
+  GridView,
+  GridWrapper,
+  GridImage,
+  GridItem,
+} from "../styles/Grid/Grid";
 
 import { useLocation, useNavigate } from "react-router-dom";
 import { SwitchTransition, CSSTransition } from "react-transition-group";
@@ -14,6 +19,8 @@ import {
   Arrow,
   Specs,
   BackToProjects,
+  OverlayWrapper,
+  OverlayImage,
 } from "../styles/Projects/Project";
 import "../styles/transitions/transitions.css";
 
@@ -31,6 +38,8 @@ const ProjectPage = () => {
   const [isMobileView, setIsMobileView] = useState(
     window.innerWidth <= MAX_MOBILE_WIDTH
   );
+
+  const [fullImage, setFullImage] = useState(false);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -73,7 +82,25 @@ const ProjectPage = () => {
       <Specs>
         <Plus onClick={toggleSidePanel} />
       </Specs>
-      <ProjectMobile images={images} />
+      <GridWrapper>
+        <GridView>
+          {images.map((image, index) => (
+            <GridItem key={index}>
+              <GridImage
+                src={image}
+                alt="project"
+                onClick={() => setFullImage(image)}
+              />
+              <OverlayWrapper
+                onClick={() => setFullImage(false)}
+                show={fullImage}
+              >
+                <OverlayImage src={fullImage} alt="project" />
+              </OverlayWrapper>
+            </GridItem>
+          ))}
+        </GridView>
+      </GridWrapper>
       <ProjectInfo
         projectName={name}
         sqm={area}

@@ -34,7 +34,7 @@ export const Text = styled.span`
 	text-align: center;
 `;
 
-export const Image = styled.img`
+export const GridImage = styled.img`
 	width: 536px;
 	height: 350px;
 	flex: 1;

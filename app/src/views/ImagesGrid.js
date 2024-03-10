@@ -5,7 +5,7 @@ import '../styles/transitions/transitions.css';
 import {
 	GridView,
 	GridWrapper,
-	Image,
+	GridImage,
 	Text,
 	GridItem,
 	Line
@@ -55,7 +55,7 @@ const ImagesGrid = ({ images, handleGridItemClicked }) => {
 							</CSSTransition>
 						</Text>
 						
-						<Image
+						<GridImage
 							src={image.source}
 							alt={image.alt}
 						/>
