@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import { Image, ImageWrapper, Socials, Icon } from "../styles/Home/Home";
+import { Socials, Icon } from "../styles/Home/Home";
 import { ReactComponent as InstagramIcon } from "../assets/instagram.svg";
 import { ReactComponent as PinterestIcon } from "../assets/pinterest.svg";
 import { images } from "../assets/images/home/homeImages";
+import Carousel from "../views/Carousel";
 
 const HomePage = () => {
   const scrollToTop = () => {
@@ -15,9 +16,7 @@ const HomePage = () => {
 
   return (
     <>
-      <ImageWrapper>
-        <Image src={images[0].source} alt={images[0].alt} />
-      </ImageWrapper>
+      <Carousel images={images} />
       <Socials>
         <Icon href="https://www.instagram.com/tamarlev.studio" target="_blank">
           <InstagramIcon />

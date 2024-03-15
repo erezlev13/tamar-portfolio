@@ -24,6 +24,11 @@ import {
 } from "../styles/Projects/Project";
 import "../styles/transitions/transitions.css";
 
+/*
+Todo: Use the Carousel view instead of duplicating the code
+The specs side panel will need to be added back into the Carousel view before doing this!
+Also projectImages.js will need to be updated with the side panel info like with the other projects
+*/
 const ProjectPage = () => {
   const MAX_MOBILE_WIDTH = 768;
 

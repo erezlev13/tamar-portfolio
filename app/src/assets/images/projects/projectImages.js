@@ -9,7 +9,7 @@ import olympicResort from "./olympic/olympic_01.jpg";
 import hcc from "./HCC/HCC_01.jpg";
 import rogovinAcro from "./rogovin-acro/rogovin-acro_01.jpg";
 */
-import bareli from './nili/TAMAR_LEV_BARELI_APARTMENT-1.jpg';
+import bareli from './nili/LO_RES_TAMAR_LEV_BARELI_APARTMENT_01.jpg';
 import yz06 from './YZ06/YZ6-coming-soon.jpg'
 /*
 import { NechoshtanImages } from "./nechoshtanImages";

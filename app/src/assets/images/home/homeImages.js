@@ -1,8 +1,6 @@
-import Homepage1 from './TAMAR_LEV_BARELI_APARTMENT- Homepage1.jpg';
+const importAll = (context) => context.keys().map(context);
 
-export const images = [
-	{
-		source: Homepage1,
-		alt: 'BR10 Apartment',
-	},
-];
+const images = importAll(require.context('./', false, /\.(jpg)$/));
+
+export { images };
+
