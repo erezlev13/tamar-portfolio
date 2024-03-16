@@ -1,13 +1,6 @@
-import tamarProfileSmile from './Tamar_Profile_Smile.jpeg';
-import tamarProfile from './Tamar_Profile.jpeg';
+const importAll = (context) => context.keys().map(context);
 
-export const images = [
-	{
-		source: tamarProfile,
-		alt: 'Tamar Lev',
-	},
-	{
-		source: tamarProfileSmile,
-		alt: 'Tamar Lev Smile',
-	},
-];
+const images = importAll(require.context('./', false, /\.(jpg)$/));
+
+export { images };
+

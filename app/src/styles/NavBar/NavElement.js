@@ -146,8 +146,10 @@ export const Menu = styled.div`
 		justify-content: center;
 		height: ${(props) => (props.open ? '50%' : 0)};
 		margin: 0;
+    /*
 		transition: transform 1.3s ease-out;
 		transform: ${(props) =>
 			props.open ? 'translateY(0%)' : 'translateY(-20%)'};
+    */
 	}
 `;

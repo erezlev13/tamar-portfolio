@@ -34,7 +34,7 @@ export const Text = styled.span`
 	text-align: center;
 `;
 
-export const Image = styled.img`
+export const GridImage = styled.img`
 	width: 536px;
 	height: 350px;
 	flex: 1;
@@ -49,7 +49,8 @@ export const Image = styled.img`
 	}
 	@media (max-width: 760px) {
 		width: 400px;
-		height: 250px;
+		height: 100%;
+		object-fit: contain;
 	}
 `;
 

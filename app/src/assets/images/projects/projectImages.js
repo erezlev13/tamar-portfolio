@@ -1,14 +1,17 @@
+/*
 import danaHarel from "./Dana Harel/DANA_HAREL004.jpg";
 import klil from "./klil/Klil-01.jpg";
 import pines from "./Pines/pines_03.jpg";
-import shabazi from "./shabazi/Shabazi_01.jpg";
+import shabazi from "./Shabazi/Shabazi_01.jpg";
 import nechoshtan from "./n-penthouse/N-Penthouse_01.jpg";
 import shefayim from "./shefayim/shefayim_01.jpg";
 import olympicResort from "./olympic/olympic_01.jpg";
 import hcc from "./HCC/HCC_01.jpg";
 import rogovinAcro from "./rogovin-acro/rogovin-acro_01.jpg";
-import bareli from './nili/bareli_01.jpeg';
-
+*/
+import bareli from './nili/LO_RES_TAMAR_LEV_BARELI_APARTMENT_01.jpg';
+import yz06 from './YZ06/YZ6-coming-soon.jpg'
+/*
 import { NechoshtanImages } from "./nechoshtanImages";
 import { KlilImages } from "./klilProjects";
 import { DaneHarelImages } from "./danaHarelImages";
@@ -18,9 +21,12 @@ import { RogovinArcoImages } from "./rogovinArcoImages";
 import { HCCImages } from "./hccImages";
 import { PinesImages } from "./pinesImages";
 import { OlympicImages } from "./olympicImages";
+*/
 import { NiliImages } from "./niliProjects";
+import { YZ06images } from "./YZ06images";
 
 export const images = [
+  /*
   {
     source: danaHarel,
     alt: "Dana Harel",
@@ -54,17 +60,19 @@ export const images = [
     architect: "Baranowitz & Goldberg",
     images: PinesImages,
   },
+  */
   {
     source: bareli,
-    alt: "Nili",
-    name: "Nili",
-    summary: "Nili",
-    projectName: "Nili's Apartement",
+    alt: "BR10 Apartment",
+    name: "BR10 Apartment",
+    summary: "BR10 Apartment",
+    projectName: "BR10 Apartment",
     area: "120 Sqm",
     location: "Tel Aviv",
     architect: "Tamar Lev",
     images: NiliImages,
   },
+  /*
   {
     source: shabazi,
     alt: "Shabazi",
@@ -130,5 +138,17 @@ export const images = [
     location: "Netanya",
     architect: "Baranowitz & Goldberg",
     images: HCCImages,
+  },
+  */
+  {
+    source: yz06,
+    alt: "YZ06 (Work in progress)",
+    name: "YZ06 (Work in progress)",
+    summary: "YZ06 (Work in progress)",
+    projectName: "YZ06 (Work in progress)",
+    area: "130 Sqm",
+    location: "Tel Aviv",
+    architect: "Tamar Lev",
+    images: YZ06images,
   },
 ];

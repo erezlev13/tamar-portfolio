@@ -21,8 +21,32 @@ export const Image = styled.img`
 	padding: 10px;
 	object-fit: contain;
 	@media screen and (max-width: 768px) {
-		width: stretch;
-		height: 100%;
+		width: 100%;
 		object-fit: contain;
 	}
+`;
+
+
+export const Socials = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  gap: 20px;
+`;
+
+export const Icon = styled.a`
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  svg {
+    width: 2em;
+    height: 2em;
+    &:hover {
+      filter: contrast(20);
+    }
+  }
 `;

@@ -28,7 +28,7 @@ export const ContactInfo = styled.div`
   margin-top: 20px;
 `;
 
-export const AskMeHHeader = styled.div`
+export const AskMeHHeader = styled.p`
   font-size: 14px;
   font-weight: bold;
   color: rgb(112, 112, 112);
@@ -50,21 +50,6 @@ export const Name = styled.input`
 `;
 
 export const EmailInput = styled.input`
-  border-width: 0.01em;
-  border-color: #838383;
-  border-style: solid;
-  background-color: #fdfdfd;
-  margin-top: 20px;
-  height: 20px;
-  width: 55%;
-  padding: 5px;
-  font-family: "Lato";
-  @media screen and (max-width: 1024px) {
-    width: 70%;
-  }
-`;
-
-export const Subject = styled.input`
   border-width: 0.01em;
   border-color: #838383;
   border-style: solid;
@@ -111,7 +96,7 @@ export const Send = styled.button`
   text-align: center;
 `;
 
-export const AskMeBox = styled.div`
+export const AskMeBox = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;

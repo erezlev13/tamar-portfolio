@@ -91,3 +91,27 @@ export const BackToProjects = styled.button`
   padding: 5px;
   font-family: inherit;
 `;
+
+export const OverlayWrapper = styled.div`
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  align-items: center;
+  align-items: center;
+
+  visibility: ${(props) => (props.show ? 'shown' : 'hidden')};
+  opacity: ${(props) => (props.show ? '1' : '0')};
+
+  transition: opacity ease 0.2s;
+`;
+
+export const OverlayImage = styled.img`
+	width: 100%;
+`;

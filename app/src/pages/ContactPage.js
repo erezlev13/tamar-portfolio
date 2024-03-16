@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import {
   Address,
@@ -6,7 +6,6 @@ import {
   Email,
   Name,
   Phone,
-  Subject,
   ContactInfo,
   ContactWrapper,
   Send,
@@ -18,17 +17,8 @@ import {
 const ContactPage = () => {
   const tamarEmail = "office@tamarlev.studio";
 
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [body, setBody] = useState("");
-
-  const sendEmail = () => {
-    const mailtoLink = `mailto:${tamarEmail}?subject=${subject}&body=${body}`;
-    window.location.href = mailtoLink;
-  };
-
+  /* ima remove this for now because tamar was complaining about the page jumping around and im blaming this code
+  remember to import useEffect if reintroducing this
   const scrollToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
@@ -36,6 +26,7 @@ const ContactPage = () => {
   useEffect(() => {
     scrollToTop();
   });
+  */
 
   return (
     <>
@@ -45,39 +36,27 @@ const ContactPage = () => {
           <Address>TEL AVIV, ISRAEL</Address>
           <Phone>TEL: +972 544804104</Phone>
         </ContactInfo>
-        <AskMeBox>
+        <AskMeBox
+          action="https://form.taxi/s/k1jw3k3t"
+          method="POST"
+        >
           <AskMeHHeader>Ask me a question</AskMeHHeader>
           <Name
-            placeholder="First name"
+            placeholder="Name"
             type="text"
-            value={firstName}
-            onChange={(e) => setFirstName(e.target.value)}
-          />
-          <Name
-            placeholder="Last name"
-            type="text"
-            value={lastName}
-            onChange={(e) => setLastName(e.target.value)}
+            name="Name"
           />
           <EmailInput
             placeholder="Email"
             type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <Subject
-            placeholder="Title"
-            type="text"
-            value={subject}
-            onChange={(e) => setSubject(e.target.value)}
+            name="Email"
           />
           <Body
             size={500}
             placeholder="Message"
-            value={body}
-            onChange={(e) => setBody(e.target.value)}
+            name="Message"
           ></Body>
-          <Send onClick={sendEmail}>Send</Send>
+          <Send type="submit">Send</Send>
         </AskMeBox>
       </ContactWrapper>
     </>
